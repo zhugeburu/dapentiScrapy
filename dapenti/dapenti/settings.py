@@ -92,5 +92,6 @@ ITEM_PIPELINES = {
     'dapenti.pipelines.JsonWithEncodingPipeline': 300,
 }
 
-LOG_LEVEL = 'INFO'
+LOG_LEVEL = 'ERROR'
 
+DOWNLOAD_DELAY = 0.7
