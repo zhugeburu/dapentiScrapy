@@ -11,6 +11,6 @@ class DapentiItem(Item):
     title = Field()
     time = Field()
     participator  = Field()
-    # bottomline = Field()
+    url = Field()
     # duty = Field()
     # xxx = Field()

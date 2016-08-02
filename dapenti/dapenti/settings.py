@@ -52,9 +52,9 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'dapenti.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+# DOWNLOADER_MIDDLEWARES = {
+#    'scrapy_crawlera.CrawleraMiddleware': 610,
+# }
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
@@ -93,5 +93,6 @@ ITEM_PIPELINES = {
 }
 
 LOG_LEVEL = 'ERROR'
-
-DOWNLOAD_DELAY = 0.7
+# CRAWLERA_ENABLED = True
+# CRAWLERA_APIKEY = '434ec9f729724c35aae54dbb42fff375'
+DOWNLOAD_DELAY = 2
